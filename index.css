@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    /* font-family:monospace; */
+    font-size: 14px;
+    line-height: 1.5em;
+   
+}
+
+.container{
+    width: 80%;
+    height: 100vh;
+    margin: 0 auto;
+    /* display: none; */
+    position:relative; 
+
+}
+
+
+textarea[name="editor"]{
+    width: 100%;
+    height: 50%;
+    box-sizing: border-box;
+    padding: 10px;
+    line-height: 1.5em;
+    /* opacity: 0; */
+}
+
+
+
+#input{
+    opacity: 0;
+    position: absolute;
+    width: 1dfpx;
+    height: 1.5em;
+    outline-style: none;
+    padding: 0px;
+    border: none;
+    resize: none;
+    background: rgb(0, 0, 255, 0.1);
+
+
+
+}
+
+#display{
+    position: relative;
+
+}
+
+
+#cursor{
+    position: absolute;
+    width: 10px;
+    height: 1.3em;
+    border-left: 1px solid rgb(255, 0, 0); 
+    border-right: none; 
+    line-height: 1.5em;
+    top: 0px;
+    left: 8px;
+}
+
+
